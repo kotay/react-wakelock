@@ -22,7 +22,7 @@ let WakeLockAndroid = React.createClass({
   displayName: "WakeLockAndroid",
 
   propTypes: {
-    preventSleep: React.PropTypes.bool
+    preventSleep: PropTypes.bool
   },
 
   getDefaultProps() {
