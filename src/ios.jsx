@@ -8,7 +8,7 @@ let WakeLockIOS = React.createClass({
   displayName: "WakeLockIOS",
 
   propTypes: {
-    preventSleep: React.PropTypes.bool
+    preventSleep: PropTypes.bool
   },
 
   getDefaultProps() {
